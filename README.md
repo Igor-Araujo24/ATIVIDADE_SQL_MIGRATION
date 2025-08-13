@@ -5,6 +5,8 @@
 Navegue até a pasta do seu servidor (ex: htdocs no XAMPP) e execute o comando:
 
 ```PS C:\xampp\htdocs> composer global require laravel/installer```
+<img width="556" height="35" alt="image" src="https://github.com/user-attachments/assets/abf9f0a2-8fb6-4a12-a41f-f190f53d45c8" />
+
 
 2. Acessando o projeto
 ```cd ATIVIDADE_SQL_MIGRATION```
@@ -26,6 +28,8 @@ DB_PASSWORD=
 
 5. Rodando a Migration
 ```php artisan migrate```
+<img width="656" height="35" alt="image" src="https://github.com/user-attachments/assets/714fa7d8-8dc0-4c95-8a30-d40ad532675c" />
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
