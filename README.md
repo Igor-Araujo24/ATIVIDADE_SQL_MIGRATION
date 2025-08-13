@@ -1,3 +1,29 @@
+1. Criando o projeto Laravel
+Navegue até a pasta do seu servidor (ex: htdocs no XAMPP) e execute o comando:
+
+```PS C:\xampp\htdocs> composer global require laravel/installer```
+
+2. Acessando o projeto
+```cd ATIVIDADE_SQL_MIGRATION```
+
+3. Configuração do banco de dados
+Crie um banco de dados no MySQL com o nome ATIVIDADE_SQL_MIGRATION e configure o arquivo .env do projeto com as credenciais:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ATIVIDADE_SQL_MIGRATION
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+4. Criando a Migration da tabela alunos
+```php artisan make:migration create_alunos_table```
+
+5. Rodando a Migration
+```php artisan migrate```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
