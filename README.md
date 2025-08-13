@@ -1,3 +1,6 @@
+**Projeto Laravel - Alunos
+**
+
 1. Criando o projeto Laravel
 Navegue até a pasta do seu servidor (ex: htdocs no XAMPP) e execute o comando:
 
